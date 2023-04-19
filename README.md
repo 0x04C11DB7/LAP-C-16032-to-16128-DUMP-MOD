@@ -7,21 +7,21 @@ from zeroprog (https://github.com/t-bucchi/zeroprog):
 
   CRC = 0xFF00 | ((VID >> 8) + (VID & 0xFF) + (PID >> 8) + (PID & 0xFF) + 1);
   
-  #define OFFSET_VID			      0
-  #define OFFSET_PID			      1
-  #define OFFSET_CRC			      2
-  #define OFFSET_MANUFACTURER	  8
-  #define OFFSET_MODEL		      0x20
-  #define OFFSET_SERIAL		      0x38
+#define OFFSET_VID			      0
+#define OFFSET_PID			 1
+#define OFFSET_CRC				2
+#define OFFSET_MANUFACTURER		8
+#define OFFSET_MODEL			0x20
+#define OFFSET_SERIAL			0x38
 	
-	LAP-C(16032)  ==>    VID: 0x0C12, PID: 0x700E, CRC: 0xFF9D
-  LAP-C(16064)  ==>    VID: 0x0C12, PID: 0x7009, CRC:
-  LAP-C(16128)  ==>    VID: 0x0C12, PID: 0x700A, CRC: 0xFF99
-	LAP-C(162000) ==>    VID: 0x0C12, PID: 0x7016, CRC:
- 
-  LAP-C(32128)  ==>    VID: 0x0C12, PID: 0x700B, CRC:
-	LAP-C(321000) ==>    VID: 0x0C12, PID: 0x700C, CRC:
-	LAP-C(322000) ==>    VID: 0x0C12, PID: 0x700D, CRC:
+	LAP-C(16032)	==>		VID: 0x0C12, PID: 0x700E, CRC: 0xFF9D
+	LAP-C(16064)	==>		VID: 0x0C12, PID: 0x7009, CRC:
+	LAP-C(16128)	==>		VID: 0x0C12, PID: 0x700A, CRC: 0xFF99
+	LAP-C(162000)	==>		VID: 0x0C12, PID: 0x7016, CRC:
+
+	LAP-C(32128)	==>		VID: 0x0C12, PID: 0x700B, CRC:
+	LAP-C(321000)	==>		VID: 0x0C12, PID: 0x700C, CRC:
+	LAP-C(322000)	==>		VID: 0x0C12, PID: 0x700D, CRC:
   
   
 LAP-C(16032) DUMP:
