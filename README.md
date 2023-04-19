@@ -5,9 +5,9 @@ LAP-C 16032 Dump Backup + Modified Dump from 16032 to 16128
 
 ### Links: 
 
-	EEVBLOG: <https://www.eevblog.com/forum/testgear/zeroplus-lap-c-16032-logic-analyzer-logic-cube/>
-	Zerominus: <https://code.google.com/p/zerominus/>
-	Zeroprog: <https://github.com/t-bucchi/zeroprog>
+	EEVBLOG: (<https://www.eevblog.com/forum/testgear/zeroplus-lap-c-16032-logic-analyzer-logic-cube/>)
+	Zerominus: (<https://code.google.com/p/zerominus/>)
+	Zeroprog: (<https://github.com/t-bucchi/zeroprog>)
 
 ### From  Zeroprog:
 
