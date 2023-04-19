@@ -1,19 +1,21 @@
 # LAP-C-16032-to-16128-DUMP-MOD
 LAP-C 16032 Dump Backup + Modified Dump from 16032 to 16128
 
-EEPROM 93LC46B (64x16bit)
+### EEPROM 93LC46B (64x16bit)
 
-from zeroprog (https://github.com/t-bucchi/zeroprog):
+### From zeroprog (https://github.com/t-bucchi/zeroprog):
 
-  CRC = 0xFF00 | ((VID >> 8) + (VID & 0xFF) + (PID >> 8) + (PID & 0xFF) + 1);
+	CRC = 0xFF00 | ((VID >> 8) + (VID & 0xFF) + (PID >> 8) + (PID & 0xFF) + 1);
   
-#define OFFSET_VID			      0
-#define OFFSET_PID			 1
-#define OFFSET_CRC				2
-#define OFFSET_MANUFACTURER		8
-#define OFFSET_MODEL			0x20
-#define OFFSET_SERIAL			0x38
+	#define OFFSET_VID		0
+	#define OFFSET_PID		1
+	#define OFFSET_CRC		2
+	#define OFFSET_MANUFACTURER	8
+	#define OFFSET_MODEL		0x20
+	#define OFFSET_SERIAL		0x38
 	
+### Models:
+
 	LAP-C(16032)	==>		VID: 0x0C12, PID: 0x700E, CRC: 0xFF9D
 	LAP-C(16064)	==>		VID: 0x0C12, PID: 0x7009, CRC:
 	LAP-C(16128)	==>		VID: 0x0C12, PID: 0x700A, CRC: 0xFF99
@@ -24,7 +26,7 @@ from zeroprog (https://github.com/t-bucchi/zeroprog):
 	LAP-C(322000)	==>		VID: 0x0C12, PID: 0x700D, CRC:
   
   
-LAP-C(16032) DUMP:
+### LAP-C(16032) DUMP (S/N 20091Z-0120):
   
 	120C 0E70 9DFF FFFF FFFF FFFF FFFF FFFF		...pќяяяяяяяяяяя
 	1B5A 4552 4F50 4C55 5320 5465 6368 6E6F		.ZEROPLUS Techno
@@ -36,7 +38,7 @@ LAP-C(16032) DUMP:
 	0F30 3030 3032 3030 3931 5A2D 3031 3230		.000020091Z-0120
   
   
-LAP-C(16128) DUMP:
+### LAP-C(16128) DUMP (S/N 20091Z-0120):
 
 	120C 0A70 99FF FFFF FFFF FFFF FFFF FFFF		...p™яяяяяяяяяяя
 	1B5A 4552 4F50 4C55 5320 5465 6368 6E6F		.ZEROPLUS Techno
