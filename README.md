@@ -17,8 +17,6 @@ LAP-C 16032 Dump Backup + Modified Dump from 16032 to 16128
 	LAP-C_16128_93LC46B_(16032MOD).BIN 	- Modified dump from 16032 to 16128
 
 ### From  Zeroprog:
-
-	CRC = 0xFF00 | ((VID >> 8) + (VID & 0xFF) + (PID >> 8) + (PID & 0xFF) + 1);
   
 	#define OFFSET_VID		0
 	#define OFFSET_PID		1
@@ -26,6 +24,8 @@ LAP-C 16032 Dump Backup + Modified Dump from 16032 to 16128
 	#define OFFSET_MANUFACTURER	8
 	#define OFFSET_MODEL		0x20
 	#define OFFSET_SERIAL		0x38
+	
+	CRC = 0xFF00 | ((VID >> 8) + (VID & 0xFF) + (PID >> 8) + (PID & 0xFF) + 1);
 	
 ### Models:
 
