@@ -1,9 +1,6 @@
 # LAP-C-16032-to-16128-DUMP-MOD
 LAP-C 16032 Dump Backup + Modified Dump from 16032 to 16128
 
-### EEPROM 
-	93LC46B (64x16bit)
-
 ### Links: 
 
 	EEVBLOG: 	https://eevblog.com/forum/testgear/zeroplus-lap-c-16032-logic-analyzer-logic-cube
@@ -11,6 +8,8 @@ LAP-C 16032 Dump Backup + Modified Dump from 16032 to 16128
 	Zerominus: 	https://code.google.com/p/zerominus
 
 	Zeroprog:	https://github.com/t-bucchi/zeroprog
+	
+### EEPROM IC:	93LC46B (64x16bit)
 
 ### From  Zeroprog:
 
@@ -35,7 +34,7 @@ LAP-C 16032 Dump Backup + Modified Dump from 16032 to 16128
 	LAP-C(322000)	==>		VID: 0x0C12, PID: 0x700D, CRC:
   
   
-### LAP-C(16032) EEPROM DUMP (S/N 20091Z-0120):
+### LAP-C(16032) EEPROM DUMP (S/N: 20091Z-0120):
   
 	120C 0E70 9DFF FFFF FFFF FFFF FFFF FFFF		...pќяяяяяяяяяяя
 	1B5A 4552 4F50 4C55 5320 5465 6368 6E6F		.ZEROPLUS Techno
@@ -47,7 +46,7 @@ LAP-C 16032 Dump Backup + Modified Dump from 16032 to 16128
 	0F30 3030 3032 3030 3931 5A2D 3031 3230		.000020091Z-0120
   
   
-### LAP-C(16128) EEPROM DUMP (S/N 20091Z-0120):
+### LAP-C(16128) EEPROM DUMP (S/N: 20091Z-0120):
 
 	120C 0A70 99FF FFFF FFFF FFFF FFFF FFFF		...p™яяяяяяяяяяя
 	1B5A 4552 4F50 4C55 5320 5465 6368 6E6F		.ZEROPLUS Techno
