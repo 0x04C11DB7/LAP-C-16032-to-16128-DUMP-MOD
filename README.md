@@ -3,7 +3,13 @@ LAP-C 16032 Dump Backup + Modified Dump from 16032 to 16128
 
 ### EEPROM 93LC46B (64x16bit)
 
-### From zeroprog (https://github.com/t-bucchi/zeroprog):
+### Links: 
+
+	EEVBLOG: https://www.eevblog.com/forum/testgear/zeroplus-lap-c-16032-logic-analyzer-logic-cube/
+	Zerominus: https://code.google.com/p/zerominus/
+	Zeroprog: https://github.com/t-bucchi/zeroprog
+
+### From  Zeroprog:
 
 	CRC = 0xFF00 | ((VID >> 8) + (VID & 0xFF) + (PID >> 8) + (PID & 0xFF) + 1);
   
