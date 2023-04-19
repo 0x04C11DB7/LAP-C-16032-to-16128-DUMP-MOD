@@ -9,7 +9,12 @@ LAP-C 16032 Dump Backup + Modified Dump from 16032 to 16128
 
 	Zeroprog:	https://github.com/t-bucchi/zeroprog
 	
-### EEPROM IC:	93LC46B (64x16bit)
+### EEPROM IC:
+	93LC46B (64x16bit)
+
+### Files:
+	LAP-C_16032_93LC46B_BACKUP.BIN 		- Original 93LC46B IC dump (TL866 II Plus programmer used)
+	LAP-C_16128_93LC46B_(16032MOD).BIN 	- Modified dump from 16032 to 16128
 
 ### From  Zeroprog:
 
